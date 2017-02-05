@@ -1,0 +1,14 @@
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Utils.Tests.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Utils.Tests.pdb
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Castle.Core.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Moq.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Shouldly.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Utils.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Utils.pdb
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Castle.Core.xml
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Moq.xml
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\obj\Debug\Utils.Tests.csprojResolveAssemblyReference.cache
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\obj\Debug\Utils.Tests.dll
+C:\Users\victork\Documents\Visual Studio 2015\Projects\Utils\Utils.Tests\obj\Debug\Utils.Tests.pdb
