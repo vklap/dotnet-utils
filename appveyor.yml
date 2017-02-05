@@ -27,7 +27,7 @@
   - nuget restore
 
   build:
-    project: AppveyorDemo.sln
+    project: Utils.sln
     verbosity: minimal
 
   test: on
