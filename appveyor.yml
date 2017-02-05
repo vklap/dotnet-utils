@@ -31,6 +31,11 @@
     verbosity: minimal
 
   test: on
+
+  deploy_script:
+  - nuget pack Utils\Utils.nuspec -Version %appveyor_build_version% -symbols
+  - appveyor PushArtifact Utils.%appveyor_build_version%.nupkg
+  - appveyor PushArtifact Utils.%appveyor_build_version%.symbols.nupkg
   
   nuget:
     account_feed: true
