@@ -1,2 +1,46 @@
-before_build:
-- nuget restore
+# configuration for "master" branch
+# build in Release mode and deploy to Azure
+-
+  branches:
+    only:
+      - master
+      - develop
+
+  skip_tags: true
+  version: 1.0.0.{build}
+  configuration: Release
+  os: Windows Server 2012
+  platform: Any CPU
+  
+
+  assembly_info: 
+    patch: true 
+    file: AssemblyInfo.* 
+    assembly_version: "{version}" 
+    assembly_file_version: "{version}" 
+    assembly_informational_version: "{version}"
+
+  cache:
+  - packages -> **\packages.config
+
+  before_build:
+  - nuget restore
+
+  build:
+    project: AppveyorDemo.sln
+    verbosity: minimal
+
+  test: on
+  
+  nuget:
+    account_feed: true
+    project_feed: true
+    disable_publish_on_pr: true
+    
+  notifications:
+  - provider: Email
+    to:
+      - victor.klapholz@gmail.com
+    on_build_success: false
+    on_build_failure: false
+    on_build_status_changed: false
